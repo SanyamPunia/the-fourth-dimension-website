@@ -1,0 +1,33 @@
+.iconContainer {
+  position: absolute;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3em;
+
+  a {
+    color: white;
+    .icon {
+      font-size: 1em;
+      margin: 1em;
+      cursor: pointer;
+      transition: 0.2s all ease;
+    }
+
+    .sc {
+      &:hover{
+        color: #ff7700;
+      }
+    }
+    .dc {
+      &:hover{
+        color: #738adb;
+      }
+    }
+    .yt {
+      &:hover{
+        color: #ff0000;
+      }
+    }
+  }
+}

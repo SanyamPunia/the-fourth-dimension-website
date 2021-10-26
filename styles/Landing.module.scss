@@ -1,0 +1,75 @@
+// * {
+//     font-family: "Spartan", sans-serif;
+//   }
+
+.container {
+  // border: 2px solid red;
+  height: 90vh;
+  margin: 0 auto;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: "Spartan", sans-serif;
+
+  .heading {
+    color: white;
+    h1 {
+      cursor: context-menu;
+      font-weight: 800;
+      font-size: 2.5em;
+      font-style: italic;
+      text-shadow: 2px 2px 5px rgb(24, 24, 24);
+    }
+
+    h1:nth-child(2) {
+      width: fit-content;
+      font-size: 5em;
+      transition: 0.3s all ease;
+      box-shadow: inset 0 0 0 0.01px #fff;
+    }
+    h1:nth-child(2):hover {
+      box-shadow: inset 400px 0 0 0.01px #fff;
+      color: rgb(39, 108, 211);
+      text-shadow: none;
+      transform: rotate(-5deg);
+    }
+
+    h1:nth-child(3) {
+      width: fit-content;
+      font-size: 5em;
+      transition: 0.3s all ease;
+      box-shadow: inset 0 0 0 0.01px #fff;
+    }
+
+    p {
+      margin-top: 1em;
+      font-size: 20px;
+      line-height: 1.3em;
+
+      span {
+        font-weight: 800;
+      }
+    }
+  }
+
+  .headingBtn {
+    margin-top: 2em;
+
+    a {
+      text-decoration: none;
+      color: white;
+      width: 300px;
+      border: 2px solid #ffffff;
+      padding: 0.5em;
+      letter-spacing: 2px;
+      transition: 0.3s all ease;
+      box-shadow: inset 0 0 0 0 #fff;
+    }
+    a:hover {
+      color: #294bb4;
+      box-shadow: inset 300px 0 0 #fff;
+    }
+  }
+}
