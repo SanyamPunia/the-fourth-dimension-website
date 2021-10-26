@@ -1,0 +1,77 @@
+.container {
+  font-family: "Spartan", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  //   align-items: center;
+  margin-top: 10rem;
+
+  .roster {
+    width: 30rem;
+    h1 {
+      margin-bottom: 1rem;
+      font-weight: 800;
+      color: white;
+      // font-style: italic;
+    }
+    p {
+      color: white;
+      line-height: 1.5em;
+    }
+
+    .rosterSocial {
+      * {
+        margin-right: 0.5em;
+      }
+      font-size: 1.2em;
+      margin-top: 1.5rem;
+      a {
+        color: white;
+        transition: 0.2s all ease;
+      }
+      .sc:hover {
+        color: #ff7700;
+      }
+      .yt:hover {
+        color: #ff0000;
+      }
+      .sf:hover {
+        color: #1db954;
+      }
+    }
+  }
+  .rosterEmbed {
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+
+    .embedToggle {
+      font-size: 3rem;
+      height: 4.5rem;
+      background-color: rgb(0, 0, 0); /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.3); /* Black w/opacity/see-through */
+      backdrop-filter: blur(5px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      * {
+        padding: 0.1em;
+        cursor: pointer;
+        transition: 0.2s all ease;
+
+        &:hover {
+          color: white;
+        }
+      }
+      .spotifyIcon {
+        color: #1db954;
+      }
+
+      .soundcloudIcon {
+        color: #ff7700;
+      }
+    }
+  }
+}

@@ -10,7 +10,7 @@ export default function Navbar() {
             <div className={styles.itemContainer}>
                 <div className={styles.item}>
                     <a href="/discography">Discography</a>
-                    <a href="/rosters">Rosters</a>
+                    <a href="/roster">Roster</a>
                     <a href="/contact">Contact</a>
                 </div>
             </div>
