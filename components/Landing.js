@@ -16,7 +16,7 @@ export default function Landing() {
                 </p>
             </div>
             <div className={styles.headingBtn}>
-                <a href="/">more</a>
+                <a href="/roster">more</a>
             </div>
         </div>
     )
