@@ -1,7 +1,3 @@
-// * {
-//     font-family: "Spartan", sans-serif;
-//   }
-
 .container {
   // border: 2px solid red;
   height: 90vh;
@@ -45,7 +41,7 @@
 
     p {
       margin-top: 1em;
-      font-size: 20px;
+      font-size: 1.2em;
       line-height: 1.3em;
 
       span {
@@ -70,6 +66,92 @@
     a:hover {
       color: #294bb4;
       box-shadow: inset 300px 0 0 #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    width: 80%;
+    .heading {
+      h1 {
+        cursor: context-menu;
+        font-weight: 800;
+        font-size: 2em;
+        font-style: italic;
+        text-shadow: 2px 2px 5px rgb(24, 24, 24);
+      }
+
+      h1:nth-child(2) {
+        width: fit-content;
+        font-size: 4em;
+        transition: 0.3s all ease;
+        box-shadow: inset 0 0 0 0.01px #fff;
+      }
+      h1:nth-child(3) {
+        width: fit-content;
+        font-size: 4em;
+        transition: 0.3s all ease;
+        box-shadow: inset 0 0 0 0.01px #fff;
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    .heading {
+      h1 {
+        font-size: 1.8em;
+      }
+      h1:nth-child(2) {
+        width: fit-content;
+        font-size: 3.8em;
+        transition: 0.3s all ease;
+        box-shadow: inset 0 0 0 0.01px #fff;
+      }
+      h1:nth-child(3) {
+        width: fit-content;
+        font-size: 3.8em;
+        transition: 0.3s all ease;
+        box-shadow: inset 0 0 0 0.01px #fff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 110vh;
+
+    .heading {
+      margin-right: 0;
+      text-align: center;
+      h1 {
+        font-size: 1.5em;
+      }
+      h1:nth-child(2) {
+        // width: fit-content;
+        font-size: 3em;
+      }
+      h1:nth-child(3) {
+        width: fit-content;
+        font-size: 3em;
+      }
     }
   }
 }

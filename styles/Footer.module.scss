@@ -31,3 +31,9 @@
     }
   }
 }
+
+@media screen and (max-width: 750px) {
+  .iconContainer {
+    display: none;
+  }
+}
