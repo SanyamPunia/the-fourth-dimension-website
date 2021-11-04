@@ -104,14 +104,31 @@
 
       h1:nth-child(2) {
         font-size: 10vw;
+        box-shadow: inset 0 0 0 0px #fff;
       }
-
+      h1:nth-child(2):hover {
+        pointer-events: none;
+        box-shadow: none;
+        transform: rotate(0deg);
+      }
+      
       h1:nth-child(3) {
         font-size: 10vw;
+        box-shadow: inset 0 0 0 0px #fff;
       }
 
       p {
         font-size: 1.5em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    .heading {
+      p {
+        font-size: 1.2em;
       }
     }
   }

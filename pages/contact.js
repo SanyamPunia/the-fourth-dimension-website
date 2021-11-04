@@ -8,7 +8,6 @@ export default function contact() {
             <Navbar />
             <div className={styles.container}>
                 <h1>CONTACT US</h1>
-
                 <form action="https://formspree.io/f/xgerkzaa" method="POST">
                     <div>
                         <input type="text" name="name" autoComplete="off" required />
@@ -23,7 +22,6 @@ export default function contact() {
                     <br />
                     <button>Submit</button>
                 </form>
-
             </div>
         </div>
     )

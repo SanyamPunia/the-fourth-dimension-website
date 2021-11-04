@@ -3,7 +3,7 @@
   display: grid;
   text-align: center;
   align-items: center;
-  margin-top: 3%;
+  margin-top: 3em;
 
   h1 {
     margin: 2rem;
@@ -130,6 +130,53 @@
         color: #3db2ff;
         box-shadow: inset 300px 0 0 #fff;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    form {
+      div {
+        width: 40%;
+      }
+      textarea {
+        width: 40%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    form {
+      div {
+        width: 50%;
+      }
+      textarea {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    form {
+      div {
+        width: 80%;
+      }
+      textarea {
+        width: 80%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    h1 {
+      font-size: 2.5em;
     }
   }
 }
