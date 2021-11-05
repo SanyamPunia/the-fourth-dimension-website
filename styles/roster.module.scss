@@ -18,7 +18,6 @@
           margin-bottom: 1rem;
           font-weight: 800;
           color: white;
-          // font-style: italic;
         }
         p {
           color: white;
@@ -49,3 +48,67 @@
     }
   }
 }
+
+@media screen and (max-width: 1350px) {
+ .container {
+   .roster {
+     width: 90%;
+   }
+ } 
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    .roster {
+      width: 100%;
+
+      .rosterElement {
+        display: grid;
+        place-items: center;
+        gap: 4em;
+      }
+      iframe {
+        width: 70%;
+      }
+    }
+  } 
+ }
+
+ @media screen and (max-width: 700px) {
+  .container {
+    .roster {
+      width: 100%;
+
+      .rosterElement {
+        .rosterInfo {
+          width: 80%;
+        }
+        iframe {
+          width: 80%;
+        }
+      }
+    }
+  } 
+ }
+
+ @media screen and (max-width: 500px) {
+   .container {
+     .roster {
+       .rosterElement {
+         .rosterInfo {
+           width: 90%;
+
+           h1 {
+             font-size: 1.8em;
+           }
+           p {
+            font-size: 0.9em;
+           }
+         }
+         iframe {
+           width: 90%;
+         }
+       }
+     }
+   }
+ }

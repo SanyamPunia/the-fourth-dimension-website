@@ -9,8 +9,6 @@ import { FaSpotify } from 'react-icons/fa'
 
 export default function rosters() {
     const [spotifyUserInfo, setSpotifyUserInfo] = useState(true)
-
-    console.log(rosterList[0].name);
     return (
         <div>
             <Navbar />
