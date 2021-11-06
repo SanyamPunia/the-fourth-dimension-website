@@ -24,8 +24,8 @@ export  const rosterList = [
     {
         key: "3",
         name: "MELEJEND",
-        headPara: "Melejend (Mark) - Music producer from Siberia, member of worldwide collective The Fourth Dimension and artist on The Nations.",
-        bodyPara: "He started making music in the summer of 2018. He wrote simple and bad Trap tracks and couldn't think that he could achieve what he has now. He was very inspired by the producer from Romania, REALM. He’s very thankful for him and his tracks, because it motivated him to try his hand at music. He became an unknown Trap producer, but now his music and himself have changed. He began to like Wave, and decided to continue his musical activity in this genre. Now he’s inspired by FATE, iwilldiehere, and Russian artists’ (PHARAOH, Markul, Loqiemean and pyrokinesis) music. He will still release Trap tracks, but only on labels or collaborators profiles.",
+        headPara: "Melejend, which name is Mark - young music producer from cold Siberia.",
+        bodyPara: "He started making music in the summer of 2018. He wrote a lot of bad Trap tracks and couldn't think that he could achieve what he has now. He was very inspired by the producer from Romania, REALM. He’s very thankful for him and his tracks, because it motivated him to try his hand at music. He became an unknown Trap producer, but now his music and himself have changed. He began to like Wave, and decided to continue his musical activity in this genre. Now he’s inspired by hyperforms, FATE, iwilldiehere, Russian artists (PHARAOH, Markul, Midix and etc.), Russian Postpunk and longing for grey soviet panel houses. He will still release Trap tracks, but only on labels or collaborators profiles.",
         endPara: "So far, he’s still looking for his unique style, but he’s sure he’ll find it very soon.",
         youtube: "https://www.youtube.com/channel/UC1uLMoV1HQwxEIyQ6fEsidg",
         soundcloud: "https://soundcloud.com/melejend",
